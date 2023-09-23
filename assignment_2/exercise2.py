@@ -1,4 +1,4 @@
-position = input("Enter a position (for example: A1, B2): ")
+position = input("Enter a chess board position: ")
 
 column = position[0]
 row = int(position[1])
@@ -17,4 +17,4 @@ def square_color(column, row):
 color = square_color(column, row)
 
 # result
-print(f"The color of square {position} is {color}.")
+print(f"This case is {color}")
