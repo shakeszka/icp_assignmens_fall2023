@@ -8,7 +8,7 @@ modifiers = []
 if distance < 230000:
     modifiers.append("Super")
 
-if date in [29,30,31]:
+if date in [29,30,31]: # date == 29 or date ==
     modifiers.append("Blue")
 
 if eclipse == "True":
